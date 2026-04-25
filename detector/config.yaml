@@ -1,0 +1,25 @@
+slack:
+  webhook_url: "YOUR_SLACK_WEBHOOK_URL"
+
+logging:
+  nginx_log: "/var/log/nginx/hng-access.log"
+  audit_log: "/var/log/detector/audit.log"
+
+detection:
+  window_seconds: 60
+  baseline_window_minutes: 30
+  baseline_recalc_seconds: 60
+  zscore_threshold: 3.0
+  rate_multiplier: 5.0
+  error_rate_multiplier: 3.0
+  min_samples_for_baseline: 10
+  error_tightening_factor: 0.7
+
+unban_schedule_seconds:
+  - 600    # 10 minutes (1st offense)
+  - 1800   # 30 minutes (2nd offense)
+  - 7200   # 2 hours    (3rd offense)
+  # 4th+ offense: permanent
+
+dashboard:
+  port: 8080
