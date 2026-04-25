@@ -1,7 +1,19 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# Environment
 .env
+*.env
+
+# Secrets — never commit the real config with Slack webhook
+detector/config.local.yaml
+
+# Runtime logs (generated on server, not source files)
 *.log
-screenshots/*.png
-docs/*.png
+
+# Docker volumes / data
+nextcloud-data/
+
+# macOS
+.DS_Store
