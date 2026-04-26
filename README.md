@@ -1,7 +1,7 @@
 # Anomaly Detection Engine
 
-**Server IP:** `<YOUR_SERVER_IP>`
-**Metrics Dashboard:** `http://<YOUR_SUBDOMAIN>`
+**Server IP:** `3.236.146.31`
+**Metrics Dashboard:** `http://nginx-sentinel.duckdns.org:8080`
 **GitHub Repo:** `https://github.com/Gospelmairo/nginx-sentinel`
 **Blog Post:** `<BLOG_URL>`
 
