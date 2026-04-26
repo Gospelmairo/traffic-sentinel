@@ -1,9 +1,9 @@
 # Anomaly Detection Engine
 
 **Server IP:** `3.236.146.31`
-**Metrics Dashboard:** `http://nginx-sentinel.duckdns.org:8080`
-**GitHub Repo:** `https://github.com/Gospelmairo/nginx-sentinel`
-**Blog Post:** `<BLOG_URL>`
+**Metrics Dashboard:** `http://traffic-sentinel.duckdns.org:8080`
+**GitHub Repo:** `https://github.com/Gospelmairo/traffic-sentinel`
+**Blog Post:** `https://mairogospel.hashnode.dev/how-i-built-a-real-time-ddos-detection-engine-from-scratch`
 
 ---
 
@@ -84,8 +84,8 @@ sudo apt-get install -y docker.io docker-compose-plugin
 sudo systemctl enable --now docker
 
 # 2. Clone repo
-git clone https://github.com/Gospelmairo/nginx-sentinel.git
-cd nginx-sentinel
+git clone https://github.com/Gospelmairo/traffic-sentinel.git
+cd traffic-sentinel
 
 # 3. Configure
 cp detector/config.yaml detector/config.yaml.local
