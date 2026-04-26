@@ -1,7 +1,8 @@
 # syntax=docker/dockerfile:1
 FROM python:3.11-alpine AS builder
 WORKDIR /build
-RUN apk update && apk upgrade --no-cache
+RUN apk update && apk upgrade --no-cache && \
+    apk add --no-cache gcc python3-dev musl-dev linux-headers
 RUN pip install --no-cache-dir "pip==24.3.1" "setuptools==75.8.0" "wheel==0.45.1"
 COPY requirements.txt .
 RUN pip install --no-cache-dir --prefix=/install -r requirements.txt
