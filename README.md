@@ -5,6 +5,8 @@
 **GitHub Repo:** `https://github.com/Gospelmairo/traffic-sentinel`
 **Blog Post:** `https://mairogospel.hashnode.dev/how-i-built-a-real-time-ddos-detection-engine-from-scratch`
 
+![Dashboard](screenshots/Dashboard.png)
+
 ---
 
 ## Language
