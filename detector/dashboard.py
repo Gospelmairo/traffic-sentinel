@@ -18,7 +18,7 @@ _HTML = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HNG Anomaly Detector</title>
+  <title>Traffic Sentinel</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: 'Courier New', monospace; background: #0d1117; color: #c9d1d9; padding: 20px; }
@@ -44,7 +44,7 @@ _HTML = """<!DOCTYPE html>
   </style>
 </head>
 <body>
-  <h1>&#x1F6E1; HNG Anomaly Detection Engine</h1>
+  <h1>&#x1F6E1; Traffic Sentinel — Anomaly Detection Engine</h1>
   <p class="subtitle">Live dashboard &mdash; <span id="last-update">loading...</span></p>
 
   <div class="grid">
